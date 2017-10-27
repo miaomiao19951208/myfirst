@@ -1,0 +1,191 @@
+@charset "utf-8";
+.user_cou {
+	width: 965px;
+	border: 1px solid #dedede;
+	background: #fff;
+	padding-bottom: 20px;
+}
+
+.user_cou_t {
+	padding: 0;
+	width: 100%;
+	border-bottom: 1px solid #dedede;
+}
+
+.user_cou_form {
+	padding: 20px 10px 33px;
+	text-align: center;
+	position: relative;
+}
+
+.user_cou_cn {
+	font-size: 17px;
+	/*cursor: default;*/
+}
+
+.user_cou_text {
+	text-align: left;
+	width: 175px;
+	padding: 7px 8px;
+	height: 16px;
+	border: 1px solid #ddd;
+	border-top-color: #ccc;
+	box-shadow: 0 1px 3px rgba(200, 200, 200, .3) inset;
+	overflow: hidden
+}
+
+.user_cou_btn {
+	vertical-align: -1px;
+	margin-left: 25px;
+	color: #fff;
+	background-color: #ff666b;
+	border: 1px solid #ff666b;
+	display: inline-block;
+	padding: 0 18px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	/*margin: 0;*/
+	overflow: visible;
+	cursor: pointer;
+}
+
+.user_cou_cel {
+	color: #e5e5e5;
+	font-weight: 400;
+}
+
+.userred {
+	text-decoration: none;
+	border-bottom: 2px solid #ff666b;
+	color: #ff666b
+}
+
+.user_cou_cor,
+.user_cou_cel a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid #ff666b;
+	color: #ff666b
+}
+
+.user_cou_cel {
+	color: #e5e5e5;
+	font-weight: 400;
+	height: 65px;
+	line-height: 65px;
+	/*position: relative;*/
+	font-size: 18px;
+}
+
+.user_cou_cel a {
+	display: inline-block;
+	padding: 0 15px;
+	margin: 0 5px;
+}
+
+.user_cou_all {
+	margin: 0 auto;
+	width: 825px;
+	padding: 15px 0
+}
+
+.user_cou_all li a {
+	width: 204px;
+	/*float: left;*/
+	display: block;
+	padding: 5px 0;
+	text-align: center;
+	transition: none;
+	border: 1px solid #ccc;
+}
+
+.user_cou_red {
+	background-color: #ff666b;
+	color: #fff;
+	border-color: #ff666b;
+}
+
+.user_cou_all a.user_cou_left {
+	background-color: #ff666b;
+	color: #fff;
+	border-color: #ff666b;
+}
+
+.user_cou_all li a:hover {
+	color: #ff666b;
+}
+
+.user_cou_white {
+	border-bottom: 0;
+	padding: 0 42px
+}
+
+.user_cou_page {
+	padding-right: 10px;
+	margin-top: 20px;
+	padding: 10px 0;
+	font-size: 14px;
+	text-align: right;
+}
+
+
+/*点击按钮优惠券*/
+
+.user_cou_t_cn {
+	position: absolute;
+	text-align: left;
+	left: 437px;
+	bottom: 0;
+	height: 33px;
+	line-height: 33px;
+	color: red
+}
+
+
+/*优惠券弹出窗口*/
+
+.user_cou_hide {
+	position: fixed;
+	/*padding: 20px;*/
+	text-align: center;
+	left: 50%;
+	/*margin-left: -120px;*/
+	top: 40%;
+	display: none;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 2, 0.18)
+}
+
+.user_cou_hide_top {
+	padding: 20px;
+	width: 200px;
+	font-size: 14px;
+	background-color: #FFFFFF;
+}
+
+.user_cou_hide_top img {
+	width: 22px;
+	height: 22px;
+	margin-right: 5px;
+	vertical-align: middle
+}
+
+.user_cou_hide_top b {
+	padding-top: -5px;
+}
+
+.user_cou_hide_bottom {
+	padding: 10px;
+	background-color: #f8f8f8;
+}
+
+.user_cou_hide_btn {
+	color: #fff;
+	border: 1px solid #ff666b;
+	background: #ff666b;
+	margin-left: 0;
+	background-color: #59bbec;
+	border-color: #38abe4;
+	font-size: 14px;
+	padding: 6px 12px 6px 15px;
+	border-radius: 3px;
+}

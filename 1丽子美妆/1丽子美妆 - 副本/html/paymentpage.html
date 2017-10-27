@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main-style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/tollery.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main-heard-toof.css" />
+	</head>
+	<body>
+		<div class="heard-title">
+			<div class="container clearfix">
+
+				<div class="heard-collect fr">
+					❤收藏我们
+				</div>
+				<div class="heard-help-center fr">
+					<a href="#">帮助中心</a>
+				</div>
+			
+				<div class="heard-user fr ">
+						<a href="#">我的中心</a>
+						<span class="heard-user-out" id="heardout">
+				  		<a href="login.html">[退出]</a>
+			
+				  		<div class="heard-user-mark relative">我的美妆
+						<ul class="my-center" >
+							<li>
+								<a href="#">我的订单</a>
+							</li>
+							<li>
+								<a href="#">我的货币</a>
+							</li>
+							<li>
+								<a href="#">我的余额</a>
+							</li>
+							<li>
+								<a href="#">我的优惠券</a>
+							</li>
+							<li>
+								<a href="#">修改收货地址</a>
+							</li>
+						</ul>
+				  		</div>
+				  		
+				  		
+						</span>
+					</div>
+
+			</div>
+		</div>
+		<div class="tolley-main">
+			<div class="tolley-main-title">
+				<div class="container clearfix">
+					<div class="logo-box fl clearfix">
+						<div class="logo fl">
+							<a href="#">我们美妆</a>
+
+						</div>
+						<div class="page-title fl">
+							<h3>确认订单</h3>
+						</div>
+					</div>
+					<div class="p-r fr">
+						<div class="page-steps">
+							<div class="step2">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="payment">
+			<div class="container">
+				<div class="payment-main">
+					<div class="payment-main-box">
+						<div class="payment-main-title clearfix">
+							<h3 class="fl">选择收货地址</h3>
+							<div class="mang-address fr">
+								<a href="#">管理收货地址</a>
+							</div>
+						</div>
+						<div class="use-box-address clearfix">
+							<div class="add-newaddress fl">
+							<div class="newad-box">
+								<a href="#">
+									<p>+</p>
+									<span>新增地址</span>
+								</a>
+
+							</div>
+						</div>
+						</div>
+						
+						<div class="goods-title">
+							<h3>确认商品信息</h3>
+							<div class="goods-info-title">
+								<ul class="clearfix">
+									<li class="fl td-name">商品</li>
+									<li class="fl td-godsinfodsinfo">商品信息</li>
+									<li class="fl td-onepirce">单价</li>
+									<li class="fl td-allnum">数量</li>
+									<li class="fl td-count">小计</li>
+								</ul>
+							</div>
+						</div>
+						<div class="tollery-store-list">
+							<div class="store-list-box">
+								<div class="store-info">
+									<span>店铺：</span>
+									<span id="store-name">哒哒美妆</span>
+									<span class="store-service" title="联系商家"></span>
+								</div>
+								<div class="all-store-info">
+									<div class="store-item">
+										<ul class="cle clearfix">
+
+											<li class="td-item fl clearfix">
+												<div class="goods-img fl">
+													<a href="#">
+														<img src="../img/tolley/goods1.jpg" />
+													</a>
+												</div>
+												<div class="goods-info fl">
+													<a href="#">美国直邮美宝莲橡皮擦遮瑕笔Maybelline遮瑕膏遮黑眼圈遮雀斑痘印</a>
+												</div>
+
+											</li>
+											<li class="td-info fl">
+												<div class="goods-prop">
+													<p>规格：110</p>
+												</div>
+											</li>
+											<li class="td-price fl">
+												<div class="goods-pic-box">
+
+													<p><span class="price_now">￥70.00</span></p>
+												</div>
+											</li>
+											<li class="td-num fl">
+												<p id="goods-allnum">
+													1
+												</p>
+
+											</li>
+											<li class="td-sum fl">
+												<p>
+													￥<span class="price_sum">70.00</span>
+												</p>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+								<div class="remark-box ">
+									<div class="remark clearfix">
+										<div class="fl">
+											<label>备注</label>
+											<textarea name="remark" rows="" cols=""></textarea>
+										</div>
+										<div class="store-discounts fr">
+											<label>店铺优惠</label>
+											<span id="">
+										&nbsp;&nbsp;-￥ 0.00
+									</span>
+										</div>
+									</div>
+									<div class="store-totle">
+										<p>
+											邮费：
+											<span>已免邮</span>
+										</p>
+										<p>
+											合计：
+											<span>￥<i id="store-allpirce">0.00</i></span>
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="payment-main-bottom-box">
+							<div class="redbag text-rig">
+								<label>使用平台优惠券：</label>
+								<select name="redbag" id="redbag">
+									<option value="0">不使用平台优惠券</option>
+									<option value="1">6元平台优惠券</option>
+									<option value="1">6元平台优惠券</option>
+									<option value="1">6元平台优惠券</option>
+								</select>
+							</div>
+							<div class="text-rig">
+								<div>
+									<span>使用丽子币</span>
+									<span class="bd">：
+								<input id="lizi-coin" placeholder="0" data-limit="0" type="text" class="text" name="integral"> 
+									<i>-￥0.00</i>
+								</span>
+								</div>
+								<p class="tip">可用<span id="integral">0</span>个丽子币，（共0个）</p>
+							</div>
+							<div class="text-rig">
+								<div>
+									<span>使用丽子余额</span>
+									<span class="bd">：
+								<input id="balance" placeholder="0" data-limit="0.00" type="text" class="text" name="balance"> 
+									<i>-￥0.00</i>
+								</span>
+								</div>
+								<p class="tip">可使用<span id="balance-limit">0.00</span>元，（共0.00元）</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="tolley-bottom-title">
+						<div class="container">
+							<div id="cart_fd" class="cart_fd">
+								<div class="cart_fd_box cle">
+									<div class="fl">
+										<a href="fulltollery.html" class="back-tollery">
+											<i class="iconfont">&#xe601;</i>返回购物车
+										</a>
+									</div>
+									<div class="fr">
+										<div class="total_count"> 共有
+											<span id="total_num">0</span> 件商品，总计： ￥
+											<span id="total_price">0.00</span>
+											<em id="decrease"></em>
+											<a href="javascript:;" class="topay topay-bg" id="topay">提交订单</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="useradd">
+			<table class="userrrece_hid ">
+				<thead>
+					<tr>
+						<td class="user_hid_add relative">
+							<input class="user_hid_add_btn" type="button" name="" id="" value="x" />
+							<div class="user_hid_title">
+								新增收货地址
+							</div>
+						</td>
+
+					</tr>
+					<!--中间-->
+					<tr>
+						<td class="user_hid_name">
+							<div class="user_hid_content">
+								<ul class="user_hid_form clearfix">
+									<li class="user_hid_form_cle">
+										<label class="" for="">收货人：</label>
+										<input class="user_hid_form_cle_ip" type="text" id="" value="" />
+										<!--<div class="celar"></div>-->
+									</li>
+									<!---->
+									<li class="user_hid_form_cle">
+										<label class="fl" for="">收货地区：</label>
+										<div class="user_hid_form_area">
+											<select name="user_hid_name_province">
+												<option value="">--请选择--</option>
+												<!---->
+												<option value="97">北京</option>
+												<option value="2073">上海</option>
+												<option value="2255">天津</option>
+												<option value="2672">重庆</option>
+												<option value="2591">浙江</option>
+												<option value="102">福建</option>
+												<option value="276">广东</option>
+												<option value="390">广西</option>
+												<option value="1115">湖南</option>
+												<option value="1021">湖北</option>
+												<option value="1290">江苏</option>
+												<option value="1371">江西</option>
+												<option value="1">安徽</option>
+												<option value="783">河南</option>
+												<option value="624">河北</option>
+												<option value="929">黑龙江</option>
+												<option value="1231">吉林</option>
+												<option value="1474">辽宁</option>
+												<option value="1723">山东</option>
+												<option value="1849">山西</option>
+												<option value="1968">陕西</option>
+												<option value="2077">四川</option>
+												<option value="587">海南</option>
+												<option value="495">贵州</option>
+												<option value="2449">云南</option>
+												<option value="1674">青海</option>
+												<option value="180">甘肃</option>
+												<option value="1547">内蒙古</option>
+												<option value="1649">宁夏</option>
+												<option value="2342">新疆</option>
+												<option value="2261">西藏</option>
+												<!---->
+											</select>
+											<span>省</span>
+											<select name="user_hid_name_province">
+												<option value="">--请选择--</option>
+												<option value="">青岛</option>
+												<option value="">济南</option>
+											</select>
+											<span>市</span>
+											<select name="user_hid_name_province">
+												<option value="">--请选择--</option>
+												<option value="">城阳</option>
+												<option value="">市南</option>
+												<option value="">市北</option>
+											</select>
+											<span>区</span>
+										</div>
+										<div class="celar"></div>
+									</li>
+									<li class="user_hid_form_cle">
+										<label class="" for="">街道地址：</label>
+										<input class="userLoand_are" style="width: 400px;" type="text" id="" value="" />
+										<!--<div class="celar"></div>-->
+									</li>
+									<!--联系电话-->
+									<li class="user_hid_form_cle">
+										<label class="" for="">联系电话：</label>
+										<input class="userTel" type="text" id="" placeholder="推荐使用手机号" value="" />
+										<span>推荐使用手机，座机需加区号和“-”符号</span>
+										<!--<div class="celar"></div>-->
+									</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<!--最后面-->
+					<tr>
+						<td class="user_hid_tfood">
+							<div class="user_hid_tfood_t">
+								<input type="button" class="user_hid_tfood_btnt" id="user_hid_tfood_btn" value="确定" />
+								<input type="button" class="user_hid_tfood_btnf" id="" value="取消" />
+							</div>
+
+						</td>
+					</tr>
+				</thead>
+			</table>
+		</div>
+		<div id="obottom"></div>
+	</body>
+	<script src="../js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/tollery.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

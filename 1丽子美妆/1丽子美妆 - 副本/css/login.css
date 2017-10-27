@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+.login-head-title{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+    color: #FFFFFF;
+    background-color: #222222;
+}
+.login-head-title .login-home {
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.login-head-title .login-home a{
+	color: #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+}
+.login-head-title .login-logo{
+	padding: 0 30px;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #FF666B;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 60px;
+	color: #FFFFFF;
+}
+.login-head-title .login-connet a{
+	color: #FFFFFF;
+}
+.login-mid-main{
+	  margin: 30px auto 50px;
+}
+.login-mid-main-box {
+	border: 1px solid #ccc;
+    background-color: #fff;
+    width: 320px;
+    height: 420px;
+    box-shadow: 0 0 15px rgba(204,204,204,.5);
+    float: right;
+    padding: 15px 30px;
+ 
+    
+}
+.login-mid-main-box .top-box{
+	margin-bottom: 30px;
+	color: #34495E;
+}
+.login-mid-main-box .top-box span{
+	font-size: 19px;	
+}
+.login-mid-main-box .top-box p a{
+	text-decoration: underline;
+}
+
+.login-mid-main-box .login-textwrods input{
+	height: 30px;
+	width: 96%;
+	 border: 1px solid #ccc;
+    line-height: 18px;
+    padding: 6px;
+    position: relative;
+    zoom: 1;
+}
+.login-mid-main-box .mss-tip{
+	color: #0066EE;
+	height: 30px;
+	line-height: 30px;
+}
+.login-mid-main-box .message input{
+	height: 30px;
+	width: 40%;
+	 border: 1px solid #ccc;
+    line-height: 18px;
+    padding: 6px;
+    position: relative;
+    zoom: 1;
+    margin: 0 20px 0 0 ;
+}
+.login-mid-main-box .message button{
+	
+	border: 0;
+	background-color: #DDDDDD;
+	 border: 1px solid #ccc;
+	height: 44px;
+	color: #666;
+    padding: 6px 20px;
+    top: -1px;
+    font-size: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.login-mid-main-box .message button:hover{
+	background-color: #CCCCCC;
+}
+.login-mid-main-box .bottom-box{
+	
+	color: #34495E;
+	margin: 10px 0;
+	font-size: 13px;
+}
+.login-mid-main-box .bottom-box input{
+	position: relative;
+	top:2px;
+	outline: 0;
+}
+.login-mid-main-box .login-submit{
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #FF666B ;
+	background-color:#FF666B ;
+	color: #FFFFFF;
+	width: 318px;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+}
+.message2 p{
+	text-decoration: underline;
+	text-align: right;
+	margin: 10px 0;
+}
+.other-login-box {
+	margin: 20px 0;
+}
+.other-login-box p{
+	color: #999999;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.other-login-box .other-login a{
+	    margin-top: 0;
+    vertical-align: top;
+    margin-right: 10px;
+    background: url(../img/login/login.png) center no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.other-login-box .other-login .qq{
+	    background-position: -40px 0;
+}
+.other-login-box .other-login .sina{
+	    background-position: 0 0;
+}
+.other-login-box .other-login .alipay{
+	    background-position: -80px 0
+}

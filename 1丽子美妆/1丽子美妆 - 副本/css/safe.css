@@ -1,0 +1,95 @@
+@charset "utf-8";
+.user_safe {
+	width: 965px;
+	padding-bottom: 20px;
+	border: 1px solid #dedede;
+	background: #fff;
+}
+
+.user_safe_t {
+	padding: 16px 20px;
+	border-bottom: 1px solid #dedede;
+}
+
+.user_safe_t h4 {
+	font-size: 18px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.user_safe_box {
+	font-size: 14px;
+	line-height: 35px
+}
+
+.user_safe_bd {
+	padding: 20px;
+}
+
+.user_safe_tel {
+	color: #09f;
+	margin-left: 20px;
+}
+
+.user_safe_bd p a:hover {
+	color: #09f;
+	text-decoration: underline;
+}
+
+.user_safe h3 {
+	padding: 16px 20px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 18px;
+	border-bottom: 1px solid #ddd
+}
+
+.user_safe_password {
+	line-height: 35px;
+	padding: 20px;
+}
+
+.user_safe_password div label {
+	display: inline-block;
+	width: 75px;
+}
+
+
+/*方框格式*/
+
+.user_safe_password input {
+	border: 1px solid #ddd;
+	border-top-color: #ccc;
+	box-shadow: 0 1px 3px rgba(200, 200, 200, .3) inset;
+}
+
+.user_safe_password div input {
+	width: 200px;
+	padding: 7px 8px;
+	height: 16px;
+	overflow: hidden;
+}
+
+.user_safe_password div {
+	margin-bottom: 10px;
+}
+
+.user_safe_submit {
+	display: inline-block;
+	padding: 0 18px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin: 0;
+	overflow: visible;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #ff666b;
+	border: 1px solid #ff666b;
+}
+
+.user_safe_password a:hover {
+	background-color: #F66368;
+	color: #FFFFFF
+}

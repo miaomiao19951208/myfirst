@@ -1,0 +1,90 @@
+@charset "utf-8";
+.user_account {
+	width: 965px;
+	padding-bottom: 20px;
+	border: 1px solid #dedede;
+	background: #fff;
+}
+
+.user_account_t {
+	padding: 16px 20px;
+	border-bottom: 1px solid #dedede;
+}
+
+.user_account h4 {
+	font-size: 18px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.user_account_list {
+	padding: 10px 20px 20px;
+}
+
+.user_account_num {
+	font-size: 18px;
+	color: #ff666b;
+}
+
+.user_account_text {
+	padding: 7px 8px;
+	height: 16px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	border-top-color: #ccc;
+	box-shadow: 0 1px 3px rgba(200, 200, 200, .3) inset;
+}
+
+.user_account_list div {
+	margin-bottom: 10px;
+}
+
+.user_account_num_btn {
+	border-radius: 2px;
+	color: #fff;
+	background-color: #ff666b;
+	border: 1px solid #ff666b;
+	display: inline-block;
+	padding: 0 18px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	overflow: visible;
+	cursor: pointer;
+}
+
+.user_account_list table {
+	width: 100%;
+	text-align: center;
+	margin: 12px 0;
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+.user_account_time {
+	width: 150px;
+}
+
+.user_account_mony,
+.user_account_class,
+.user_account_balance {
+	width: 120px;
+}
+
+.user_account_list table th {
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+}
+
+.user_account_list table tbody td {
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+}

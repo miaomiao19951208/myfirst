@@ -1,0 +1,67 @@
+@charset "utf-8";
+.user_mony {
+	width: 965px;
+	padding-bottom: 20px;
+	border: 1px solid #dedede;
+	background: #fff;
+}
+
+.user_mony_cn {
+	padding: 16px 20px;
+	border-bottom: 1px solid #dedede;
+}
+
+.user_mony_cn h4 {
+	font-size: 18px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.user_mony_list {
+	padding: 10px 20px 20px;
+	line-height: 35px;
+	font-size: 14px;
+}
+
+.user_mony_gray {
+	color: #9e9e9e;
+}
+
+.user_mony_list a {
+	color: #09f;
+}
+
+.user_mony_list a.user_bule:hover {
+	text-decoration: underline;
+}
+
+.user_mony_list table {
+	table-layout: fixed;
+	width: 100%;
+	line-height: 45px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.user_mony_list table th {
+	margin-bottom: 10px;
+	font-size: 14px;
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #34495E;
+}
+
+.user_mony1 {
+	width: 150px;
+	color: #34495E;
+}
+
+.user_mony2 {
+	width: 120px;
+}
+
+.user_mony4 {
+	width: 120px;
+}
+

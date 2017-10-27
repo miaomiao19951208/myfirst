@@ -1,0 +1,182 @@
+@charset "utf-8";
+.user_mes {
+	width: 965px;
+	padding-bottom: 20px;
+	border: 1px solid #dedede;
+	background: #fff;
+}
+
+.user_mes_t {
+	padding: 16px 20px;
+	border-bottom: 1px solid #dedede;
+}
+
+.user_mes_t h4 {
+	font-size: 18px;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+.user_mes_form ul {
+	width: 100%;
+	font-size: 14px;
+}
+
+.user_mes_form label {
+	position: absolute;
+	left: 25px;
+	top: 8px;
+	text-align: left;
+	display: inline-block;
+	width: 60px;
+}
+
+.user_mes_form li {
+	padding: 8px 0px 8px 90px;
+	position: relative;
+	line-height: 25px;
+}
+
+.user_mes_rk {
+	width: 177px;
+	height: 22px;
+	border: 1px solid #e6d08a;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.user_mes_total {
+	border-radius: 2px;
+	height: 20px;
+	width: 175px;
+	overflow: hidden;
+	border: 1px solid #fff;
+	position: relative;
+}
+
+.user_mes_count {
+	line-height: 20px;
+}
+
+.user_mes_count span {
+	position: absolute;
+	display: block;
+	width: 100%;
+	left: 0;
+	top: 0;
+	color: #333;
+	line-height: 20px;
+	text-align: center;
+}
+
+.user_mes_count span em {
+	color: #f66;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.user_mes_rank a {
+	vertical-align: top;
+	margin-left: 15px;
+	color: #ff666b;
+}
+
+.user_mes_rank a:hover {
+	text-decoration: underline;
+}
+
+.user_mes_form li.user_mes_face {
+	height: 100px;
+}
+
+.user_mes_face label {
+	position: absolute;
+	left: 25px;
+	top: 8px;
+	text-align: left;
+	display: inline-block;
+	width: 60px;
+}
+
+.user_face {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+
+.user_mes_face img {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #e4e4e4;
+}
+
+.user_face_edit {
+	position: absolute;
+	height: 20px;
+	line-height: 20px;
+	width: 100px;
+	display: block;
+	background: #000;
+	background: rgba(0, 0, 0, .5);
+	text-align: center;
+	color: #fff;
+	left: 1px;
+	bottom: -1px;
+}
+
+.user_mes_iface a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.user_mes_in {
+	padding: 7px 8px;
+	height: 16px;
+	overflow: hidden;
+}
+
+.user_mes_in,
+.user_mes_form select {
+	border: 1px solid #ddd;
+	border-top-color: #ccc;
+	margin-right: 5px;
+	box-shadow: 0 1px 3px rgba(200, 200, 200, .3) inset;
+}
+
+.user_mes_form select {
+	padding: 6px 4px;
+}
+
+.user_mes_form option {
+	font-weight: normal;
+	display: block;
+	white-space: pre;
+	min-height: 1.2em;
+	padding: 0px 2px 1px;
+}
+
+.user_mes li span {
+	color: #bbb;
+}
+
+.user_mes_submit {
+	padding: 20px 0 20px 90px
+}
+
+.user_mes_submit a input {
+	border-radius: 2px;
+	color: #fff;
+	background-color: #ff666b;
+	border: 1px solid #ff666b;
+	display: inline-block;
+	padding: 0 18px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	/* margin: 0; */
+	/* overflow: visible; */
+	cursor: pointer;
+}

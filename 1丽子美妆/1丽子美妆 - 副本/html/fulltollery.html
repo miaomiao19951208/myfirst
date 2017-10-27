@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main-style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/tollery.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main-heard-toof.css" />
+	</head>
+
+	<body>
+		<div class="heard-title">
+			<div class="container clearfix">
+
+				<div class="heard-collect fr">
+					❤收藏我们
+				</div>
+				<div class="heard-help-center fr">
+					<a href="#">帮助中心</a>
+				</div>
+				
+				<div class="heard-user fr ">
+						<a href="#">我的中心</a>
+						<span class="heard-user-out" id="heardout">
+				  		<a href="login.html">[退出]</a>
+			
+				  		<div class="heard-user-mark relative">我的美妆
+						<ul class="my-center" >
+							<li>
+								<a href="#">我的订单</a>
+							</li>
+							<li>
+								<a href="#">我的货币</a>
+							</li>
+							<li>
+								<a href="#">我的余额</a>
+							</li>
+							<li>
+								<a href="#">我的优惠券</a>
+							</li>
+							<li>
+								<a href="#">修改收货地址</a>
+							</li>
+						</ul>
+				  		</div>
+				  		
+				  		
+						</span>
+					</div>
+
+			</div>
+		</div>
+		<div class="tolley-main">
+			<div class="tolley-main-title">
+				<div class="container clearfix">
+					<div class="logo-box fl clearfix">
+						<div class="logo fl">
+							<a href="#">我们美妆</a>
+
+						</div>
+						<div class="page-title fl">
+							<h3>购物车</h3>
+						</div>
+					</div>
+					<div class="p-r fr">
+						<div class="page-steps">
+							<div class="step1">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tolley-full-mian-mid">
+				<div class="container">
+					<div class="tolley-full-mid-title relative">
+						<a href="#"><span>全部商品(<i id="trolley-num"></i>)</span></a>
+						<a href="#"><span>优惠商品(<i id="trolley-discounts"></i>)</span></a>
+						<a href="#"><span>库存紧张(<i id="trolley-nonum"></i>)</span></a>
+						<div class="red-under-line">
+
+						</div>
+					</div>
+					<div class="tolley-full-box">
+						<div class="tolley-carts-list">
+							<div class="tolley-carts-th">
+								<ul class="cle clearfix">
+									<li class="td td-chk fl">
+										<span class="checked-all-goods checkbox">	
+										</span>全选
+									</li>
+									<li class="td-item fl">商品</li>
+									<li class="td-info fl">商品信息</li>
+									<li class="td-price fl">单价</li>
+									<li class="td-num fl">数量</li>
+									<li class="td-sum fl">小计</li>
+									<li class="td-op fl">操作</li>
+								</ul>
+							</div>
+
+						</div>
+						<div class="tollery-store-list">
+							
+				
+						</div>
+					</div>
+					<div class="tolley-bottom-title">
+						<div class="container">
+							<div id="cart_fd" class="cart_fd">
+								<div class="cart_fd_box cle">
+									<div class="fl">
+										<div class="op">
+											<span class="checked-all-goods checkbox"></span>全选
+											<a href="javascript:;" id="checked_del">删除</a>
+											<a href="javascript:;" id="disabled_del">清空失效商品</a>
+										</div>
+									</div>
+									<div class="fr">
+										<div class="total_count"> 共有
+											<span id="total_num">0</span> 件商品，总计： ￥
+											<span id="total_price">0.00</span>
+											<em id="decrease"></em>
+											<a href="javascript:;" class="topay" id="topay">去结算</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<div id="obottom"></div>
+	</body>
+	<script src="../js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+     <script src="../js/template-web.js" type="text/javascript" charset="utf-8"></script>
+     <script id="tpl-list" type="text/html">
+     	
+               {{each}}
+     			<div class="store-list-box">
+						<div class="store-info">
+							<span class="store-checked-all checkbox"></span>
+							<span id="store-name">{{$value.sName}}</span>
+								<span class="store-service" title="联系商家"></span>
+							</div>
+						{{each $value.oj}}
+							<div class="all-store-info">
+								<div class="store-item">
+									<ul class="cle clearfix">
+										<li class="td td-chk fl">
+											<span class="checkbox checkbox-only">	
+									  	</span>
+										</li>
+										<li class="td-item fl clearfix">
+											<div class="goods-img fl">
+												<a href="#">
+													<img src="../img/tolley/goods1.jpg" />
+												</a>
+											</div>
+											<div class="goods-info fl">
+													<a href="#">{{$value.gInfo}}</a>
+											</div>
+
+										</li>
+										<li class="td-info fl">
+												<div class="goods-prop">
+													<p>规格：{{$value.gSplic}}</p>
+											</div>
+										</li>
+											<li class="td-price fl">
+												<div class="goods-pic-box">
+									     		<p><span class="price_old">{{$value.gOpirc}}</span></p>
+												<p><span class="price_now">￥{{$value.gNpirc}}</span></p>
+											</div>
+											</li>
+											<li class="td-num fl">
+												<div class="item_num clearfix">
+													<span class="num_op minus fl" title="减少1个数量">-</span>
+													<input class="num_val fl" type="text" data-storage="113" value="{{$value.gNum}}">
+													<span class="num_op add fl" title="增加1个数量">+</span>
+												</div>
+											</li>
+											<li class="td-sum fl">
+												<p>
+													￥<span class="price_sum">{{$value.gNpirc}}</span>
+												</p>
+											</li>
+											<li class="td-op fl">
+												<button class="tollery-del" type="button">删除</button>
+											</li>
+										</ul>
+									</div>
+								</div>
+								{{/each}}
+							</div>
+						{{/each}}
+     </script>
+     <script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/tollery-cookie.js" type="text/javascript" charset="utf-8"></script>
+     
+	<script src="../js/tollery.js" type="text/javascript" charset="utf-8"></script>
+
+
+</html>
